@@ -2,6 +2,11 @@
   <div id="home">
     <banner></banner>
     <shop-section></shop-section>
+    <share-section>
+      <share-item></share-item>
+      <share-item></share-item>
+      <share-item></share-item>
+    </share-section>
     <news-section></news-section>
     <about-section></about-section>
     <main-footer bgColor="#3498db" class="footer"></main-footer>
@@ -11,6 +16,8 @@
 <script>
 import Banner from './childcomps/banner/Banner'
 import ShopSection from './childcomps/shopsection/ShopSection'
+import ShareSection from './childcomps/sharesection/ShareSection'
+import ShareItem from './childcomps/sharesection/ShareItem'
 import NewsSection from './childcomps/newssection/NewsSection'
 import AboutSection from './childcomps/aboutsection/AboutSection'
 
@@ -21,6 +28,8 @@ export default {
   components: {
     Banner,
     ShopSection,
+    ShareSection,
+    ShareItem,
     NewsSection,
     AboutSection,
     MainFooter,
